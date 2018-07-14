@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--	Para que se vea en los dispositivos móviles	-->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Blog de Fer</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-blogFer">
+						<span class="sr-only"> Desplegar / Ocultar Menu </span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Blog de Fer</a>
+				</div>
+				<!--	Inicia Menu	-->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Categorias <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Categoría #1</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Categoría #2</a></li>
+								<li><a href="#">Categoría #3</a></li>
+								<li><a href="#">Categoría #4</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+					<form action="" class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-primary">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<!--	Aquí va el Jumbotron	-->
+	<section class="jumbotron">
+		<div class="container">
+			<h1 class="titulo-blog">Blog de Fer</h1>
+			<p>Blog de prueba de diseño Web</p>	
+		</div>
+
+	</section>
+
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-9">	<!--	Contenedor de los posts	-->
+				<div class="miga-de-pan">
+					<ol class="breadcrumb">	<!--	Migas de pan  -->
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Categorías</a></li>
+						<li class="active">Diseño Web</li>
+					</ol>						
+				</div>
+				<!--	Artículos	-->
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">	<!--	Incluimos la imagen y la ajustamos a la izquierda (pull-left)	-->
+						<img class="img-thumbnail" src="img/html-y-css.jpg" alt="HTML5 y CSS3">
+					</a>
+					<h2 class="post-title"><a href="#">Haz realidad tus proyectos con HTML5 y CSS3</a></h2>
+					<p>
+						<span class="post-fecha">
+							26 de Junio de 2018
+						</span> por 
+						<span class="post-autor">
+							<a href="#">Fernando González</a>
+						</span>
+					</p>
+					<!--	Texto del artículo	-->
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec tincidunt purus. Nunc sed imperdiet nibh. Vestibulum vulputate quis metus eu tristique. Nulla malesuada orci sit amet ex dapibus ornare. Mauris quis bibendum ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Aenean a nibh luctus, condimentum eros eu, gravida neque. Mauris a ullamcorper nibh, ac ullamcorper tellus. Maecenas eu pretium arcu. Maecenas sagittis ipsum metus, sed sagittis nunc commodo sed. Donec pulvinar velit vel purus consequat, ac laoreet urna pharetra. Morbi eget vulputate sapien, quis vestibulum orci. Donec bibendum massa rhoncus eros elementum fringilla.
+					</p>
+
+					<div class="contenedor-botones">
+					<a href="#" class="btn btn-primary">Leer más</a>
+					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+					</div>
+				</article>
+
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">	<!--	Incluimos la imagen y la ajustamos a la izquierda (pull-left)	-->
+						<img class="img-thumbnail" src="img/javascript.png" alt="JavaScript">
+					</a>
+					<h2 class="post-title"><a href="#">¿Para qué sirve JavaScript?</a></h2>
+					<p>
+						<span class="post-fecha">
+							26 de Junio de 2018
+						</span> por 
+						<span class="post-autor">
+							<a href="#">Fernando González</a>
+						</span>
+					</p>
+					<!--	Texto del artículo	-->
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec tincidunt purus. Nunc sed imperdiet nibh. Vestibulum vulputate quis metus eu tristique. Nulla malesuada orci sit amet ex dapibus ornare. Mauris quis bibendum ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Aenean a nibh luctus, condimentum eros eu, gravida neque. Mauris a ullamcorper nibh, ac ullamcorper tellus. Maecenas eu pretium arcu. Maecenas sagittis ipsum metus, sed sagittis nunc commodo sed. Donec pulvinar velit vel purus consequat, ac laoreet urna pharetra. Morbi eget vulputate sapien, quis vestibulum orci. Donec bibendum massa rhoncus eros elementum fringilla.
+					</p>
+
+					<div class="contenedor-botones">
+					<a href="#" class="btn btn-primary">Leer más</a>
+					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+					</div>
+				</article>
+
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">	<!--	Incluimos la imagen y la ajustamos a la izquierda (pull-left)	-->
+						<img class="img-thumbnail" src="img/html5.jpg" alt="HTML5">
+					</a>
+					<h2 class="post-title"><a href="#">Aspectos avanzados de HTML5</a></h2>
+					<p>
+						<span class="post-fecha">
+							26 de Junio de 2018
+						</span> por 
+						<span class="post-autor">
+							<a href="#">Fernando González</a>
+						</span>
+					</p>
+					<!--	Texto del artículo	-->
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec tincidunt purus. Nunc sed imperdiet nibh. Vestibulum vulputate quis metus eu tristique. Nulla malesuada orci sit amet ex dapibus ornare. Mauris quis bibendum ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Aenean a nibh luctus, condimentum eros eu, gravida neque. Mauris a ullamcorper nibh, ac ullamcorper tellus. Maecenas eu pretium arcu. Maecenas sagittis ipsum metus, sed sagittis nunc commodo sed. Donec pulvinar velit vel purus consequat, ac laoreet urna pharetra. Morbi eget vulputate sapien, quis vestibulum orci. Donec bibendum massa rhoncus eros elementum fringilla.
+					</p>
+
+					<div class="contenedor-botones">
+					<a href="#" class="btn btn-primary">Leer más</a>
+					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+					</div>
+				</article>
+				<!--	PAGINACIÓN	-->
+				<nav>
+					<div class="center-block">
+						<ul class="pagination">
+							<li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">&raquo;<span class="sr-only">Siguiente</span></a></li>
+						</ul>
+					</div>
+				</nav>
+			</section>
+			<!--	ASIDE 	-->
+			<aside class="col-md-3 hidden-xs hiden-sm">
+				<h4>Categorías</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item active">Diseño Web</a>
+					<a href="#" class="list-group-item">CSS</a>
+					<a href="#" class="list-group-item">Cursos</a>
+					<a href="#" class="list-group-item">Desarrollo Web</a>
+					<a href="#" class="list-group-item">Elementos Web</a>
+					<a href="#" class="list-group-item">Jquery</a>
+					<a href="#" class="list-group-item">Recursos y Herramientas</a>
+				</div>
+				<h4>Artículos Recientes</h4>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Haz realidad tus proyectos con HTML5 y CSS3</h4>
+					<p class="list-group-item-text">Aprende a programar en HTML5 y CSS3, las últimas tecnologías de Desarrollo Web.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">¿Para qué sirve JavaScript?</h4>
+					<p class="list-group-item-text">En este artículo te contamos las geniales utilidades de uno de los lenguajes web más potentes: JavaScript.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Aspectos avanzados de HTML5</h4>
+					<p class="list-group-item-text">Haremos de HTML5 un libro abierto para tí.</p>
+				</a>
+			</aside>
+		</div>
+	</section>
+	
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p>Fernando González - Ticnor</p>
+				</div>
+				<div class="col-xs-6">
+					<ul class="list-inline text-right">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<!--	Importamos javascript (y JQuery)	-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
